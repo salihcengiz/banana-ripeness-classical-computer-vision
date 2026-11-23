@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Ortam ---
+.venv/
+venv/
+env/
+.env
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Veri (git'e eklenmez, klasör yapısı .gitkeep ile korunur) ---
+data/**
+!data/**/
+!data/**/.gitkeep
+!data/README.md
+
+# --- Modeller ---
+models/*
+!models/.gitkeep
+
+# --- Üretilen çıktılar ---
+results/figures/*
+results/masks/*
+results/metrics/*
+!results/**/.gitkeep

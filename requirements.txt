@@ -1,0 +1,12 @@
+# Klasik görüntü işleme + scikit-learn. Derin öğrenme kütüphanesi YOK (bkz. CLAUDE.md §2).
+opencv-python
+numpy
+scikit-image
+scikit-learn
+pandas
+matplotlib
+seaborn
+joblib
+tqdm
+pytest
+jupyter
